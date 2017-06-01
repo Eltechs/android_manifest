@@ -12,9 +12,10 @@
   <remote name="freedesktop" fetch="git://anongit.freedesktop.org/" />
   <remote name="x86" fetch="git://gitscm.sf.net/gitroot/android-x86/" />
   <remote name="swiftshader" fetch="https://swiftshader.googlesource.com/" />
+  <remote name="eltechs" fetch="https://github.com/Eltechs" />
 
   <!-- Linaro Device Configs -->
-  <project path="device/linaro/generic" name="generic_device" revision="master" remote="robh" groups="default" />
+  <project path="device/linaro/generic" name="generic_device" revision="test" remote="eltechs" groups="default" />
 
   <!-- Pre-built kernel tree -->
   <project path="device/linaro/generic-kernels" name="AOSP/device/linaro/generic-kernels.git" revision="master" remote="johnstultz" groups="default" />

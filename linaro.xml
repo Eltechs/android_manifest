@@ -20,6 +20,9 @@
   <!-- Ubt as an external module -->
   <project path="external/ubt" name="android-ubt" revision="test" remote="eltechs" groups="default" />
 
+  <!-- Setaddr32 tool for address space limitation -->
+  <project path="external/setaddr32" name="setaddr32" revision="test" remote="eltechs" groups="default />
+
   <!-- Pre-built kernel tree -->
   <project path="device/linaro/generic-kernels" name="AOSP/device/linaro/generic-kernels.git" revision="master" remote="johnstultz" groups="default" />
 

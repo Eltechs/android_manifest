@@ -15,7 +15,7 @@
   <remote name="eltechs" fetch="https://github.com/Eltechs" />
 
   <!-- Linaro Device Configs -->
-  <project path="device/linaro/generic" name="generic_device" revision="test" remote="eltechs" groups="default" />
+  <project path="device/linaro/generic" name="generic_device" revision="double-zygote" remote="eltechs" groups="default" />
 
   <!-- Ubt as an external module -->
   <project path="external/ubt" name="android-ubt" revision="test" remote="eltechs" groups="default" />

@@ -28,22 +28,22 @@
 
   <!-- Critical drm_hwcomposer components -->
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/mesa3d" name="mesa" revision="f11b35f" remote="robh" groups="default" />
+  <project path="external/mesa3d" name="mesa" revision="f11b35f5cac925c4627db26cc30726be3283cff6" remote="robh" groups="default" />
 
-  <project path="external/gbm_gralloc" name="gbm_gralloc" revision="4615512" remote="robh" groups="default" />
+  <project path="external/gbm_gralloc" name="gbm_gralloc" revision="461551297c51776e9ec9d48b08768cb6747308f5" remote="robh" groups="default" />
 
   <remove-project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" />
-  <project path="external/drm_hwcomposer" name="drm_hwcomposer" revision="e39513d" remote="robh" groups="default" />
+  <project path="external/drm_hwcomposer" name="drm_hwcomposer" revision="e39513d5466108a501c740d5cf44c16e329cb2e3" remote="robh" groups="default" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
-  <project path="external/libdrm" name="mesa/drm" revision="7e6bf88" remote="freedesktop" groups="default" />
+  <project path="external/libdrm" name="mesa/drm" revision="7e6bf88cac315a9fa41818cf72a7b5d18a2cb1fc" remote="freedesktop" groups="default" />
 
   <!-- Extra features -->
-  <project path="external/libpciaccess" name="libpciaccess" remote="robh" revision="93ebf4f" />
+  <project path="external/libpciaccess" name="libpciaccess" remote="robh" revision="93ebf4fe35902423bdcd66796bb2cc1180fcbfd4" />
 
-  <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="d19ba78" remote="robh" groups="default" />
+  <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="d19ba78f8a3bd7e4b2a3161e28a2cf4bb78cd694" remote="robh" groups="default" />
 
-  <project path="external/swiftshader" name="SwiftShader" revision="840b0ac" remote="swiftshader" groups="default" />
+  <project path="external/swiftshader" name="SwiftShader" revision="840b0acf318650ca8b2b40213c250d5699551904" remote="swiftshader" groups="default" />
 
   <!-- Linaro Kernels -->
   <project path="kernel/common" name="kernel/common" revision="android-4.9" groups="default" />

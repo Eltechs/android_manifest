@@ -28,22 +28,22 @@
 
   <!-- Critical drm_hwcomposer components -->
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/mesa3d" name="mesa" revision="android-m" remote="robh" groups="default" />
+  <project path="external/mesa3d" name="mesa" revision="f11b35f" remote="robh" groups="default" />
 
-  <project path="external/gbm_gralloc" name="gbm_gralloc" revision="master" remote="robh" groups="default" />
+  <project path="external/gbm_gralloc" name="gbm_gralloc" revision="4615512" remote="robh" groups="default" />
 
   <remove-project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" />
-  <project path="external/drm_hwcomposer" name="drm_hwcomposer" revision="android-m" remote="robh" groups="default" />
+  <project path="external/drm_hwcomposer" name="drm_hwcomposer" revision="e39513d" remote="robh" groups="default" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
-  <project path="external/libdrm" name="mesa/drm" revision="master" remote="freedesktop" groups="default" />
+  <project path="external/libdrm" name="mesa/drm" revision="7e6bf88" remote="freedesktop" groups="default" />
 
   <!-- Extra features -->
-  <project path="external/libpciaccess" name="libpciaccess" remote="robh" revision="master" />
+  <project path="external/libpciaccess" name="libpciaccess" remote="robh" revision="93ebf4f" />
 
-  <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="master" remote="robh" groups="default" />
+  <project path="external/iio-sensors-hal" name="android-iio-sensors-hal" revision="d19ba78" remote="robh" groups="default" />
 
-  <project path="external/swiftshader" name="SwiftShader" revision="cloud-android-current-release" remote="swiftshader" groups="default" />
+  <project path="external/swiftshader" name="SwiftShader" revision="840b0ac" remote="swiftshader" groups="default" />
 
   <!-- Linaro Kernels -->
   <project path="kernel/common" name="kernel/common" revision="android-4.9" groups="default" />

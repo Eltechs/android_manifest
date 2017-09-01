@@ -48,4 +48,8 @@
   <!-- Linaro Kernels -->
   <project path="kernel/common" name="kernel/common" revision="android-4.9" groups="default" />
 
+  <remove-project path="external/libavc" name="platform/external/libavc" />
+  <project path="external/libavc" name="platform/external/libavc" groups="pdk" revision="f4a17ae216f420f5d46e8680d4aa9317e6a9a4d8" remote="aosp" />
+
+
 </manifest>
